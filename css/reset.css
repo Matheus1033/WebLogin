@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--main-font);
-  color: #000;
+  color: var(--main-color);
 }
 a {
   text-decoration: none;
