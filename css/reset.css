@@ -4,15 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--main-font);
-  color: var(--main-color);
+  color: var(--another-color);
 }
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-ul {
-  list-style: none;
-}
-img {
-  max-width: 100%;
+/*Body*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(../images/Background-Image.JPG) center;
+  background-size: cover;
 }

@@ -1,52 +1,14 @@
-/*font*/
-@font-face {
-  font-family: "Brittany";
-  src: url(../fonts/BrittanySignature.ttf);
-}
-/*Body*/
-body {
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 130px;
-  background-image: url(../images/Background-Image.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-/*Header*/
-.header {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 0 20px 0 20px;
-}
-.header h1 {
-  font-size: 30px;
-  color: var(--another-color);
-  font-family: var(--another-font);
-}
-.header ul {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 /*Form*/
 .countainer {
   width: 420px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  color: var(--another-color);
+  padding: 30px 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
 }
-.countainer h2 {
+.countainer h1 {
   font-size: 36px;
   text-align: center;
 }
@@ -77,23 +39,53 @@ body {
   font-size: 20px;
   transform: translateY(-50%);
 }
-.form {
-  min-height: 70%;
+.Remember-forgot {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: -15px 0 15px;
 }
-
-.form form {
-  display: flex;
-  flex-direction: column;
+.Remember-forgot label input {
+  accent-color: var(--another-color);
+  margin-right: 5px;
 }
-.form form h2 {
-  font-size: 30px;
+.Remember-forgot a {
+  text-decoration: none;
   color: var(--another-color);
-  padding-bottom: 20px;
+  cursor: pointer;
 }
-.input-box {
-  padding-bottom: 20px;
+.Remember-forgot a:hover {
+  text-decoration: underline;
+}
+.login-bnt {
+  width: 100%;
+  height: 50px;
+  background-color: var(--another-color);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.login-bnt:hover {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: var(--another-color);
+  transition: 0.5s ease-in-out;
+}
+.register-link {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.Remember-forgot a {
+  text-decoration: none;
+  color: var(--another-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+.Remember-forgot a:hover {
+  text-decoration: underline;
 }

@@ -9,6 +9,11 @@
       rel="stylesheet"
     />
 
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variable.css" />
@@ -16,36 +21,25 @@
     <title>Login</title>
   </head>
   <body>
-    <header class="header">
-      <h1>C&M Dev</h1>
-      <ul>
-        <li class="Portuguese">
-          <img src="images/BR.png" alt="Brazil Flag" />
-        </li>
-        <li class="English">
-          <img src="images/USA.png" alt="USA Flag" />
-        </li>
-      </ul>
-    </header>
     <main class="countainer">
       <div class="form">
         <form action="">
-          <h2>Login</h2>
+          <h1>Login</h1>
           <div>
             <div class="input-box">
               <input type="email" placeholder="E-mail" required />
-              <i class="fa-solid fa-envelope"></i>
+              <i class="bx bxs-user"></i>
             </div>
 
             <div class="input-box">
               <input type="password" placeholder="Password" required />
-              <i class="fa-solid fa-lock"></i>
+              <i class="bx bxs-lock-alt"></i>
             </div>
 
             <div class="Remember-forgot">
               <label class="checkbox">
                 <input type="checkbox" />
-                <p>Remember me</p>
+                Remember me
               </label>
               <a href="">Forgot password?</a>
             </div>
@@ -53,7 +47,7 @@
             <button type="submit" class="login-bnt">Login</button>
 
             <div class="register-link">
-              <p>Don't have an account? <a href="">Register</a></p>
+              Don't have an account? <a href="">Register</a>
             </div>
           </div>
         </form>
